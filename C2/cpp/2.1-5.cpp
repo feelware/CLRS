@@ -45,4 +45,8 @@ int main() {
     print(a, n, 1);
     print(b, n, 1);
     print(addBinaryIntegers(a, b, n), n + 1);
+    
+    delete[] a;
+    delete[] b;
+    return 0;
 }
