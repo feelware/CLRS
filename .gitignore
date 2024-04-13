@@ -44,4 +44,7 @@
 *.out
 *.app
 
+# etc
+*.pdf
+
 build/
